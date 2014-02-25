@@ -1,0 +1,30 @@
+4/4
+
+
+    SPECIFICATION DESIGN PATTERN
+    helping make implicit concepts more explicit
+
+
+
+    example: specification for "is pickup active on day?"
+
+    rules: to return true,
+       - pickup.status must be "active"
+       - if pickup.pickupWindow.RRULE is not set, pickup.startAt must be on the date
+       - if pickup.pickupWindow.RRULE is set,
+         - date must not be in pickup.pickupWindow.RRULE.EXDATE
+         - if pickup is a market pickup, date must not be in pickup.sharedDetails.RRULE.EXDATE
+         - if pickup.sharedDetails.RRULE.FREQ is WEEKLY, date must be on one of pickup.sharedDetails.RRULE.BYDAY
+         - if pickup.sharedDetails.RRULE.FREQ is MONTHLY, date must be same day of month...
+         etc etc way too complicated
+
+
+
+   if specification were its own object:
+     - could use specification to answer questions about a pickup
+     - could query based on specification
+     - could create a new pickup based on specification
+
+   principle:
+
+     SPECIFICATION is its own object separate from IMPLEMENTATION and REPOSITORY

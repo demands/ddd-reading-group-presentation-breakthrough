@@ -1,0 +1,23 @@
+2/4
+
+
+    HOW TO DEAL
+    WITH A BREAKTHROUGH
+
+
+
+
+
+                          >>>> Take care! <<<<
+                          Breakthroughs are an opportunity, but big changes are high risk.
+
+
+
+                          >>>> Do something! <<<<
+                          If you don't act now, the model will become more difficult to change
+                          as we add to the existing codebase.
+
+
+
+                          >>>> Halfway refactors...? <<<<
+                          Jury is still out on whether or not these are a good idea.

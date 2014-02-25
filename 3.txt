@@ -1,0 +1,31 @@
+3/4
+
+
+    MOAR BREAKTHROUGHS PLZ
+
+
+    --- opposite of earthquakes ---
+    |
+    |   Big earthquakes happen if there haven't been any small earthquakes recently.
+    |   Big breakthroughs happen after many small refactorings.
+    |
+    -------------------------------
+
+                THEREFORE: lots of small refactorings toward a more explicit model
+
+                  1. cements everyone's thinking about the model
+                  2. keeps the model up-to-date with reality
+                  3. keeps the code supple and easy to change
+
+
+
+
+
+                ALSO: Talk about the model with experts. As much as possible.
+                      (Do the monthly pack!)
+
+                ALSO: Read / learn firsthand about the domain model. As much as possible.
+                      (Anyone know any good blogs?)
+
+
+                The goal is to sniff out implicit concepts and make them explicit.
